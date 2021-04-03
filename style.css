@@ -1,0 +1,63 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.fixed-background {
+  position: relative;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.scroll-background {
+  min-height: 100vh;
+  background-color: #b0c9c7;
+}
+
+.background1 {
+  background-image: url(./img/bg1.png);
+}
+
+.background1 h1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: block;
+  font-size: 2.5rem;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.background1 h2 {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.background2 {
+  background-image: url(./img/bg2.png);
+}
+
+.background3 {
+  background-image: url(./img/bg3.png);
+}
+
+.background4 {
+  background-image: url(./img/bg4.png);
+}
+
+.background5 {
+  background-image: url(./img/bg5.png);
+}
+/*# sourceMappingURL=style.css.map */
