@@ -11,9 +11,15 @@ html {
 .fixed-background {
   position: relative;
   min-height: 100vh;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (min-width: 600px) {
+  .fixed-background {
+    background-attachment: fixed;
+  }
 }
 
 .scroll-background {
